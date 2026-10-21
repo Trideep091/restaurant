@@ -1,0 +1,534 @@
+body
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+
+
+/* Small devices (portrait tablets and large phones, 576px and up) */
+@media (min-width: 500px) {
+
+    .col-sm-1 {
+        width: 8.33%;
+    }
+
+    .col-sm-2 {
+        width: 16.66%;
+    }
+
+    .col-sm-3 {
+        width: 25%;
+    }
+
+    .col-sm-4 {
+        width: 33.33%;
+    }
+
+    .col-sm-5 {
+        width: 41.66%;
+    }
+
+    .col-sm-6 {
+        width: 50%;
+    }
+
+    .col-sm-7 {
+        width: 58.33%;
+    }
+
+    .col-sm-8 {
+        width: 66.66%;
+    }
+
+    .col-sm-9 {
+        width: 75%;
+    }
+
+    .col-sm-10 {
+        width: 83.33%;
+    }
+
+    .col-sm-11 {
+        width: 91.66%;
+    }
+
+    .col-sm-12 {
+        width: 100%;
+    }
+    .row
+    {
+        text-align: center;
+    }
+    
+    .card
+    {
+        display: block;
+        margin-right: 0%;
+    }
+    
+    .ctn
+    {
+
+    }
+    .social-media a
+    {
+        display: block;
+        padding: 5px;
+    }
+    /* .social-media 
+    {
+        margin-top: 2px;
+    } */
+}
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 768px) {
+
+    .col-md-1 {
+        width: 8.33%;
+    }
+
+    .col-md-2 {
+        width: 16.66%;
+    }
+
+    .col-md-3 {
+        width: 25%;
+    }
+
+    .col-md-4 {
+        width: 33.33%;
+    }
+
+    .col-md-5 {
+        width: 41.66%;
+    }
+
+    .col-md-6 {
+        width: 50%;
+    }
+
+    .col-md-7 {
+        width: 58.33%;
+    }
+
+    .col-md-8 {
+        width: 66.66%;
+    }
+
+    .col-md-9 {
+        width: 75%;
+    }
+
+    .col-md-10 {
+        width: 83.33%;
+    }
+
+    .col-md-11 {
+        width: 91.66%;
+    }
+
+    .col-md-12 {
+        width: 100%;
+    }
+
+
+ 
+
+}
+
+[class*="col-"] {
+    width: 100%;
+}
+
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+
+    /* Large screen column width */
+    .col-lg-1 {
+        width: 8.33%;
+    }
+
+    .col-lg-2 {
+        width: 16.66%;
+    }
+
+    .col-lg-3 {
+        width: 25%;
+    }
+
+    .col-lg-4 {
+        width: 33.33%;
+    }
+
+    .col-lg-5 {
+        width: 41.66%;
+    }
+
+    .col-lg-6 {
+        width: 50%;
+    }
+
+    .col-lg-7 {
+        width: 58.33%;
+    }
+
+    .col-lg-8 {
+        width: 66.66%;
+    }
+
+    .col-lg-9 {
+        width: 75%;
+    }
+
+    .col-lg-10 {
+        width: 83.33%;
+    }
+
+    .col-lg-11 {
+        width: 91.66%;
+    }
+
+    .col-lg-12 {
+        width: 100%;
+    }
+    
+
+    .container
+    {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .logo
+    {
+        text-align: left
+    }
+    .row
+    {
+        display: flex;
+        
+    }
+    /* .nav-menu a
+    {
+        flex-direction: row;
+     
+        text-align: center;
+        font-size: 8px;
+    } */
+    /* .nav-menu a:hover
+    {
+        transform: scaleX(1.1));
+        
+    } */
+    .nav-menu
+    {
+        text-align: right;
+        display: flex;
+        margin-top: 20px;
+        
+        transition: 1s;
+        /* background-color: transparent; */
+    }
+    #food_menu
+    {
+        display: flex;
+    }
+    .social-media a
+    {
+        display: inline;
+    }
+}
+
+    /* ends */
+
+    /* header starts */
+    .logo img
+    {
+        
+        
+        height: 200px;
+        width: 200px;
+    }
+    .logo
+    {
+        padding: 10px;
+    }
+    .nav-menu a
+    {
+        display: block;
+        padding: 20px;
+        text-decoration: none;
+        color: white;
+        font-size: 25px;
+        text-align: center;
+        border-radius: 20px;
+        margin: 10px;
+        font-family: 'Dancing Script', cursive;
+
+    }
+
+    /* font-family: 'Abril Fatface', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Modak', cursive; */
+    .nav-menu a:hover
+    {
+        background-color: gray;
+
+    }
+    .row
+    {
+        background-color: turquoise;
+        
+    }
+
+
+
+    header::after
+    {
+        content: '';
+        display: table;
+        clear: both;
+    }
+
+    /* header ends */
+
+    /* banner section starts here */
+    #banner
+    {
+        margin-top: 0%;
+        background-image: url(Images/banner.jpg);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 200px 0px;
+        text-align: center;
+    }
+    #banner_contents
+    {
+        text-align: center;
+
+    }
+    .banner_contents h1
+    {
+        font-size: 3rem;
+        background-color: rgba(22, 160, 133, 0.836);
+        border-radius: 20px;
+        font-family:  cursive;
+    }
+    .banner_contents p
+    {
+        background-color: green;
+        width: 300px;
+        margin: 15px auto;
+        background: rgba(142, 68, 173, 0.829);
+        padding: 10px;
+        font-size: 1.5rem;
+        color: white;
+        border-radius: 20px;
+    }
+    #order-btn
+    {
+        margin: 10px auto;
+        background-color: #2E4053;
+        color: white;
+        cursor: pointer;
+        height: 60px;
+        width: 200px;
+        border: none;
+        border-radius: 20px;
+        font-size: 25px;
+        transition: 0.5s;
+        text-transform: uppercase;
+    }
+    #order-btn:hover
+    {
+        transform: scale(1.1);
+    }
+    #banner::after
+    {
+        content: '';
+        display: table;
+        clear: both;
+    }
+    /* banner section ends here */
+
+    /* about us section starts here */
+    #about-us
+    {
+        padding: 10px;
+        text-align: center;
+    }
+    #about-us p
+    {
+        font-family: 'Abril Fatface', cursive;
+    }
+    #about-us h1
+    {
+        font-weight: none;
+        font-family: comic sans-serif;
+    }
+    #about-us::after
+    {
+        content: '';
+        display: table;
+        clear: both;
+    }
+    /* about us section ends here */
+
+    /* card design starts here */
+    
+    .card-body {
+        text-align: center;
+    }
+    #food_menu
+    {
+        padding: 10px;
+    }
+    .card
+    {
+        margin-right: 20px;
+        transition: 0.6s;
+    }
+    .card:hover
+    {
+        transform: scale(1.1);
+    }
+    .card-body img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+    .item-desc {
+        background: rgb(165, 164, 164);
+        margin-top: 0%;
+    }
+    .item-name {
+        background: green;
+        color: white;
+        padding: 10px;
+    }
+    .item-desc>p {
+        font-size: 0.8rem;
+        padding: 10px;
+        font-weight: bold;
+    }
+    #food-menu::after
+    {
+        clear: both;
+        display: table;
+        content: '';
+
+    }
+    /* card design ends here */
+
+    /* contact design starts here */
+    #contact-section {
+        padding: 3%;
+        background-color: #8E44AD;
+        border-radius: 6px;
+        text-align: center;
+        color: white;
+        height: 350px;
+        
+    }
+    .contact-details {
+        
+        text-align: center;
+        padding: 20px 0;
+        
+    }
+    .contact-details .nm
+    {
+        margin-top: -10px;
+    }
+    .contact-details .ph
+    {
+        margin-top: -10px;
+    }
+    .contact-details .hor
+    {
+        margin-top: -10px;
+    }
+    .map {
+        width: 100%;
+        height: 250px;
+    }
+    .contact-details p,
+    address {
+        font-size: 0.8rem;
+    }
+    .ctn
+    {
+        display: flex;
+
+    }
+    .ctn-map
+    {
+        margin-top: 50px;
+    }
+    .map
+    {
+        border: 1px black solid;
+        border-radius: 25px;
+
+    }
+    #contact-section::after
+    {
+        display: table;
+        content: '';
+        clear: both;
+    }
+    /* contactt design ends here */
+
+    /* footer design starts here */
+footer {
+    background: #060930;
+    padding: 3%;
+    color: white;   
+}
+.Logo-Avtar img
+{
+    height: 200px;
+    width: 400px;
+}
+.social-media
+{
+   margin-top: 100px;
+}
+.social-media a
+{
+        /* display: block; */
+        padding: 10px;
+        
+        color: white;
+        font-size: 30px;
+        border-radius: 20px;
+        margin-left: 30px;
+        margin-bottom: 15px;
+        border: 2px white solid;
+        border-radius: 2000px;
+        transition: 0.5s;
+
+        
+       
+}
+
+.social-media a:hover
+{
+    background-color: grey;
+    transform: scale(1.1);
+}
+
+    /* footer design ends here */
