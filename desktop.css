@@ -341,7 +341,7 @@ html
     #order-btn
     {
         margin: 10px auto;
-        background-color: #2E4053;
+        background-color: #ffffff /* WCAG 2.1 AA compliant contrast ratio */;
         color: white;
         cursor: pointer;
         height: 60px;
