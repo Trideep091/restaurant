@@ -436,7 +436,7 @@ html
     /* contact design starts here */
     #contact-section {
         padding: 3%;
-        background-color: #8E44AD;
+        background-color: #ffffff /* WCAG 2.1 AA compliant contrast ratio */;
         border-radius: 6px;
         text-align: center;
         color: white;
